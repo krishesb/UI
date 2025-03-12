@@ -1,0 +1,38 @@
+#Item{
+    background-color: blanchedalmond;
+    color: darkmagenta;
+    width: 150px;
+    height: 75px;
+    margin: 20px;
+    padding: 25px;
+    box-sizing: content-box;
+    font-style: italic;
+}
+.aile{
+    background-color: aliceblue;
+    color: chocolate;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+    .dispin{
+        display: inline;
+        background-color: cornsilk;
+        color: darkolivegreen;
+
+    }
+    .disblk{
+        display: block;
+        background-color: aliceblue;
+        color: cornflowerblue;
+        padding: 20px;
+
+    }
+    .disbin{
+        display: inline-block;
+        background-color: yellow;
+        color: violet;
+        padding: 10px;
+        width: 120px;
+    }
+

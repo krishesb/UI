@@ -1,0 +1,83 @@
+body {
+    font-family: inherit;
+    margin: 0;
+    padding: 0;
+    background-color: LightGray;
+  }
+  
+  .heading {
+    color: white;
+  }
+  
+  .setter {
+    width: 960px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .kriya {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .kriya h2 {
+    margin-bottom: 20px;
+  }
+  
+  .kriya p {
+    margin-bottom: 20px;
+  }
+  
+  .kriya .profile-image {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px;
+    display: block;
+  }
+  
+  footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header-container {
+    display: grid;
+    grid-template-columns: 1fr auto; /* Heading takes remaining space, nav auto */
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-auto-flow: column; /* Arrange items in a row */
+    justify-content: flex-end; /* Align to the right */
+    color: white;
+  }
+  
+  nav ul li {
+    margin: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Grid Layout */
+  .grid-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Header, Content, Footer */
+  }
+  
+  .header-section {
+    background-color: blue;
+  }
+  
+  .content-section {
+    background-color: lightgrey;
+  }
